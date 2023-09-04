@@ -15,12 +15,15 @@ const dialogStyle = {
 const LoginDialog = () => {
   return (
     <div>
-      <Dialog open={true} PaperProps={{sx:dialogStyle}}>
+      <Dialog open={true} PaperProps={{ sx: dialogStyle }}>
         <Box>
           <Box>
             <Typography>To use WhatsApp on your computer:</Typography>
             <List>
-              <ListItem>Open WhatsApp on your phone.</ListItem>
+              <ListItem>1. Open WhatsApp on your phone</ListItem>
+              <ListItem>2. Tap Menu Settings and select WhatsApp Web</ListItem>
+              <ListItem> 3. Point your phone to this screen to capture the code
+              </ListItem>
             </List>
           </Box>
           <Box>2</Box>
